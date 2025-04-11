@@ -10,6 +10,7 @@ import LoginPage from "./pages/LoginPage";
 import DashboardPage from "./pages/DashboardPage";
 import InputPage from "./pages/InputPage";
 import ReportsPage from "./pages/ReportsPage";
+import ExpensesPage from "./pages/ExpensesPage";
 import NotFound from "./pages/NotFound";
 import AuthLayout from "./components/layout/AuthLayout";
 
@@ -47,6 +48,15 @@ const App = () => {
               element={
                 <AuthLayout isAuthenticated={isAuthenticated}>
                   <InputPage />
+                </AuthLayout>
+              } 
+            />
+            
+            <Route 
+              path="/expenses" 
+              element={
+                <AuthLayout isAuthenticated={isAuthenticated}>
+                  <ExpensesPage />
                 </AuthLayout>
               } 
             />

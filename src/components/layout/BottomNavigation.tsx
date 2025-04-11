@@ -1,6 +1,6 @@
 
 import { Link, useLocation } from 'react-router-dom';
-import { BarChart3, FileText, LogOut, PlusCircle } from 'lucide-react';
+import { BarChart3, FileText, LogOut, PlusCircle, DollarSign } from 'lucide-react';
 
 const BottomNavigation = () => {
   const location = useLocation();
@@ -32,6 +32,14 @@ const BottomNavigation = () => {
         >
           <PlusCircle className="h-6 w-6" />
           <span className="text-xs mt-1">Input</span>
+        </Link>
+        
+        <Link 
+          to="/expenses" 
+          className={`flex flex-col items-center p-3 ${isActive('/expenses') ? 'text-bjt-blue border-t-2 border-bjt-gold' : 'text-gray-600'}`}
+        >
+          <DollarSign className="h-6 w-6" />
+          <span className="text-xs mt-1">Beban</span>
         </Link>
         
         <Link 
