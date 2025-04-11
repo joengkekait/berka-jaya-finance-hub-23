@@ -1,8 +1,12 @@
 
+import { useState } from 'react';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import AppLayout from '../components/layout/AppLayout';
 import InputDataForm from '../components/forms/InputDataForm';
 
 const InputPage = () => {
+  const [activeTab, setActiveTab] = useState('car');
+
   return (
     <AppLayout>
       <div className="mb-6">
