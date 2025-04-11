@@ -19,9 +19,9 @@ const TopNavigation = () => {
     <nav className="hidden md:flex items-center justify-between px-6 py-4 bg-white shadow-md">
       <div className="flex items-center space-x-2">
         <img 
-          src="/logo-placeholder.svg" 
-          alt="BJT Finance" 
-          className="h-8 w-8 rounded-full bg-bjt-gradient p-1"
+          src="/lovable-uploads/650331d2-8d4f-4df4-ab41-421943a1032a.png" 
+          alt="Berkah Jaya Transport" 
+          className="h-10 w-10 rounded-full"
         />
         <h1 className="text-xl font-montserrat font-bold text-bjt-blue-dark">BJT Finance</h1>
       </div>

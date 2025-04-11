@@ -45,11 +45,11 @@ const LoginPage = () => {
       <div className="max-w-md w-full bg-white rounded-bjt shadow-bjt p-8 relative animate-fade-in">
         {/* Logo */}
         <div className="flex justify-center mb-8">
-          <div className="bg-bjt-gradient rounded-full p-4 shadow-lg">
+          <div className="rounded-full shadow-lg overflow-hidden h-20 w-20">
             <img 
-              src="/placeholder.svg" 
-              alt="BJT Finance Logo" 
-              className="h-14 w-14"
+              src="/lovable-uploads/650331d2-8d4f-4df4-ab41-421943a1032a.png" 
+              alt="Berkah Jaya Transport Logo" 
+              className="h-full w-full object-cover"
             />
           </div>
         </div>
